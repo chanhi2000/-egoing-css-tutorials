@@ -1,0 +1,27 @@
+# [egoing]css-tutorials
+
+## 3. Selectors: `id`
+### `selectors_1.html`
+```htmal
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<style>
+		li {
+			color: red;
+			text-decoration: underline;
+		}
+		#select {
+			font-size: 50px
+		}
+	</style>
+</head>
+<body>
+	<ul>
+		<li>HTML</li>
+		<li id="select">CSS</li>
+		<li>JavaScript</li>
+	</ul>
+</body>
+</html>
+``` 
